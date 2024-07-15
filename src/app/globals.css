@@ -23,7 +23,6 @@ a {
 }
 
 .container {
-    background-color: rebeccapurple;
     width: 1000px;
     margin: auto;
     padding-left: 50px;
@@ -32,4 +31,42 @@ a {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+}
+
+@media(max-width: 1000px) {
+    .container {
+        width: 889px;
+    }
+}
+
+@media(max-width: 889px) {
+    .container {
+        width: 842px;
+    }
+}
+
+@media(max-width: 842px) {
+    .container {
+        width: 673px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}
+
+@media(max-width: 673px) {
+    .container {
+        width: 506px;
+    }
+}
+
+@media(max-width: 506px) {
+    .container {
+        width: 420px;
+    }
+}
+
+@media(max-width: 420px) {
+    .container {
+        width: 311px;
+    }
 }
